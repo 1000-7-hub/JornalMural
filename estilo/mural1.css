@@ -4,6 +4,12 @@
 
 }
 
+@media (max-width: 728px){
+ body{
+  font-size: 14px;
+  display: flexbox;
+}
+
 body {
   color: #ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -12,6 +18,7 @@ body {
   padding: 50px;  
   border: 100px solid #1A1A1A;
   background: #1A1A1A;
+  display:flexboz;
  
 }
 
@@ -27,6 +34,7 @@ body {
   box-shadow: 0 4px 16px rgb(0, 0, 0) ;
   padding: 15px;
   font-size: medium;
+  display: flexbox;
 }
 
 .card {
@@ -37,6 +45,7 @@ body {
   padding: 15px;
   font-size: medium;
   margin: 5px;
+  display: flexbox;
 }
 
 
@@ -51,6 +60,7 @@ header {
   font-size: larger;
   margin-top: 5px;
   box-shadow: 0 4px 16px rgb(0, 0, 0) ;
+  display: flexbox;
 }
 
 header:hover {
@@ -132,7 +142,7 @@ button {
   padding: 10px;
   border-radius: 50px;
   text-align: center;
-  
+  display: flexbox;
 }
 
 .button {
@@ -168,14 +178,14 @@ main {
 section {
   margin-bottom: 20px;
   border-radius: 10px;
-  display: inline-block;
+  display: flexbox;
 }
 
 div {
   padding: 20px;
   border-radius: 10px;
   margin: 6px;
-  display: inline-block;
+  display: flexbox;
 }
 
 .div00 {
@@ -272,6 +282,7 @@ footer {
   border-radius: 50px;
   margin: 10px;
   box-shadow: 0 4px 16px rgb(0, 0, 0) ;
+  display: flexbox;
 }
 
 footer:hover {
